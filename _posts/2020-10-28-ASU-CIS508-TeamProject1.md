@@ -18,7 +18,7 @@ We ran multiple regression techniques such as XGB regressor, SGD regressor, MLP 
 The prediction that we submitted was two columns (Figure 1.1). The first column was the ID of the house and the second column was our predicted sales price. The prediction is scored based on the Root-Mean-Squared-Error between the predicted value logarithm and the log of the observed sales price. The smallest RMSE was the best prediction. After running base models and the tuned models, we found that our tubed CatBoost regression model got us the lowest score of 0.12392 of RMSE, which was 863rd place (out of 4525) on the Leaderboard.<br/>
 
 {:refdef: style="text-align: center;"}
-![an image alt text]({{ site.baseurl }}/images/Figure1.1.png "an image title")<br/>
+![an image alt text]({{ site.baseurl }}/images/Figure1.1.png =250x270 "an image title")<br/>
 Figure1.1 - Sample of Submission
 {: refdef}
 
@@ -30,7 +30,7 @@ We first looked into the types of features of the training dataset.
 Figure 2.1 shows that the whole dataset has 43 categorical features and 36 numeric variables, including "ID".<br/>
 
 {:refdef: style="text-align: center;"}
-![an image alt text]({{ site.baseurl }}/images/RegReport/Figure2.2.png "an image title")<br/>
+![an image alt text]({{ site.baseurl }}/images/RegReport/Figure2.2.png =400x100 "an image title")<br/>
 Figure2.1 - The Numbers of Numeric & Categorical Features
 {: refdef}
 
@@ -39,7 +39,7 @@ Then, we took the efforts to detect if there were any missing values in the data
 Before we started to process the data, we also studied the necessary statistical information of the 38 numeric features. In Figure 2.2, we found out that the ranges of some features, like the SalePrice, are relatively large. Many regression models we were going to use would need us to do some types of transformations of those features before processing.<br/>
 
 {:refdef: style="text-align: center;"}
-![an image alt text]({{ site.baseurl }}/images/RegReport/Figure22.png "an image title")<br/>
+![an image alt text]({{ site.baseurl }}/images/RegReport/Figure22.png =600x240 "an image title")<br/>
 Figure2.2 - Statistical Info of All the Numeric Variables
 {: refdef}
 

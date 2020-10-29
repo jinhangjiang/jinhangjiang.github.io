@@ -1,8 +1,10 @@
 # Awards & Certificates <br/>
 
 ## Awards
-Top 50 Teams in the National Round of Humana-Mays Healthcare Analytics Case Competition | *Oct 2020*<br/>
+Top 50 Teams in the National Round of Humana-Mays Healthcare Analytics Case Competition | *Oct 2020*<br/> 
+<br/>
 Second Place of the H&R Block Machine Learning Competition at The University of Kansas | *Nov 2019*<br/>
+<br/>
 Certificate of Appreciation by Consul General of Consulate General of P. R. China in Chicago | *Sept 2018*<br/>
 <br/>
 

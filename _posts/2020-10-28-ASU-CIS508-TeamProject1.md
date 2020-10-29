@@ -19,7 +19,7 @@ The prediction that we submitted was two columns (Figure 1.1). The first column 
 
 {:refdef: style="text-align: center;"}
 ![an image alt text]({{ site.baseurl }}/images/Figure1.1.png "an image title")<br/>
-Figure1.1
+Figure1.1 - Sample of Submission
 {: refdef}
 
 ## Data
@@ -29,5 +29,18 @@ The competition offered us two datasets to work on. One of them is the training 
 We first looked into the types of features of the training dataset. 
 Figure 2.1 shows that the whole dataset has 43 categorical features and 36 numeric variables, including "ID".<br/>
 
+{:refdef: style="text-align: center;"}
+![an image alt text]({{ site.baseurl }}/images/RegReport/Figure2.2.png "an image title")<br/>
+Figure2.1 - The Numbers of Numeric & Categorical Features
+{: refdef}
+
+Then, we took the efforts to detect if there were any missing values in the dataset. In the training dataset, 19 variables have missing values. The holdout dataset has 33 features with missing values. Some features have very high percentages of missing values. For example, the feature, PoolQC (Pool Quality), has as high as 99.5% missing values. Features like PoolQC,  may hurt the accuracy of the prediction model and lead us to invalid conclusions. So, we removed the features with at least 80% of the values that are missing. The details are explained in the Data Processing section.<br/>
+
+Before we started to process the data, we also studied the necessary statistical information of the 38 numeric features. In Figure 2.2, we found out that the ranges of some features, like the SalePrice, are relatively large. Many regression models we were going to use would need us to do some types of transformations of those features before processing.<br/>
+
+{:refdef: style="text-align: center;"}
+![an image alt text]({{ site.baseurl }}/images/RegReport/Figure22.png "an image title")<br/>
+Figure2.2 - Statistical Info of All the Numeric Variables
+{: refdef}
 
 

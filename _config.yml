@@ -25,9 +25,9 @@ footer-links:
   instagram:
   linkedin: jinhangjiang
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: jinhangjiang # just type anything here for a working RSS icon
   twitter: JJinhang
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/13609600/jinhang-jiang # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
@@ -47,7 +47,7 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/jinhang"
 
 #
 # !! You don't need to change any of the configuration flags below !!

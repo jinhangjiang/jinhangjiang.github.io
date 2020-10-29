@@ -33,7 +33,7 @@ Figure 2.1 shows that the whole dataset has 43 categorical features and 36 numer
 <br/>
 
 {:refdef: style="text-align: center;"}
-![an image alt text]({{ site.baseurl }}/images/RegReport/Figure2.2.png"an image title")<br/>
+![an image alt text]({{ site.baseurl }}/images/RegReport/Figure2.2.png "an image title")<br/>
 _Figure2.1 - The Numbers of Numeric & Categorical Features_
 {: refdef}
 <br/>

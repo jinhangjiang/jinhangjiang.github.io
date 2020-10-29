@@ -1,4 +1,9 @@
-## Awards & Certificates <br/>
+---
+layout: page
+title: Awards & Certificates
+permalink: /award/
+---
+
 
 ### Awards
 Top 50 Teams in the National Round of Humana-Mays Healthcare Analytics Case Competition | *Oct 2020*<br/> 

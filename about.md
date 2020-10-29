@@ -9,7 +9,7 @@ Experienced in in text mining, manipulating large datasets, linear regression fo
 
 ### More Information
 
-I was a foreign high exchange student at Kingman High School in Kingman, KS, in 2014.  
+I was a foreign high school exchange student at Kingman High School in Kingman, KS, in 2014.  
 After graduating from high school, I went to The University of Kansas for my bachelor's degree. 
 I spent two years studying Accounting and switched my major in the senior year to Business Analytics. 
 In November of 2019, I joined a team of three and won second place in the H&R Block machine learning competition at KU. 

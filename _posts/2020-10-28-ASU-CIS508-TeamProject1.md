@@ -17,7 +17,17 @@ We ran multiple regression techniques such as XGB regressor, SGD regressor, MLP 
 
 The prediction that we submitted was two columns (Figure 1.1). The first column was the ID of the house and the second column was our predicted sales price. The prediction is scored based on the Root-Mean-Squared-Error between the predicted value logarithm and the log of the observed sales price. The smallest RMSE was the best prediction. After running base models and the tuned models, we found that our tubed CatBoost regression model got us the lowest score of 0.12392 of RMSE, which was 863rd place (out of 4525) on the Leaderboard.<br/>
 
-<p align="center">
+{:refdef: style="text-align: center;"}
 ![an image alt text]({{ site.baseurl }}/images/Figure1.1.png "an image title")<br/>
 Figure1.1
-</p>
+{: refdef}
+
+## Data
+### -	Overview
+The competition offered us two datasets to work on. One of them is the training data with 1460 observations and 81 columns, which contains each house's ID and the sale price. The other dataset is the holdout file, which includes 1459 observations.<br/>
+
+We first looked into the types of features of the training dataset. 
+Figure 2.1 shows that the whole dataset has 43 categorical features and 36 numeric variables, including "ID".<br/>
+
+
+

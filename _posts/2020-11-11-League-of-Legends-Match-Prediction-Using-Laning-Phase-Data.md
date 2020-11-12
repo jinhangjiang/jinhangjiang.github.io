@@ -115,7 +115,7 @@ AdaBoostClassifier, CatBoostClassifier, XGBoostClassifier, <br/>
 Support Vector Classifier, LogisticRegression, RandomForestClassifier, <br/>
 KNeighborsClassifier，EnsembleVoteClassifier, StackingClassifier<br/>
 
-```{python}
+```Python3
 eclf = EnsembleVoteClassifier(clfs=[cat,logreg, knn, svc,ada,rdf,xgb], weights=[1,1,1,1,1,1,1])
 labels = ['CatBoost','Logistic Regression', 'KNN', 'SVC','AdaBoost',"Random Forest",'XGBoost','Ensemble']
 cv=KFold(n_splits = 5, random_state=2022,shuffle=True)
@@ -126,9 +126,8 @@ for clf, label in zip([cat,logreg, knn, svc, ada, rdf, xgb,eclf], labels):
                              n_jobs=-1)
     print("[%s] Accuracy: %0.6f (+/- %0.6f) Best: %0.6f " 
           % (label,scores.mean(), scores.std(), scores.max()))
-
 ```
-
+<br/>
 Figure 7 shows the outputs of the nine models. After hyperparameters tuning, the stacking model had an average accuracy of 0.732158, the third-best score. Still, it also had the lowest standard deviation, indicating that it did the best job of preventing overfitting in the cross-validation test. The ensemble model and stacking model also had the best and second-best ROC score. This outcome was consistent with what I discussed in the previous post: [Simple Weighted Average Ensemble | Machine Learning](https://medium.com/analytics-vidhya/simple-weighted-average-ensemble-machine-learning-777824852426).<br/>
 <br/>
 
@@ -140,8 +139,7 @@ _Figure 7: Model Performance Table_
 
 Figure 8 is the ROC plots for all the models that I mentioned above:<br/>
 
-```{python}
-
+```Python3
 plt.figure()
 lw = 1
 #knn
@@ -163,7 +161,6 @@ plt.ylabel('True Positive Rate')
 plt.title('ROC curve')
 plt.legend(loc="lower right")
 plt.show()
-
 ```
 <br/>
 

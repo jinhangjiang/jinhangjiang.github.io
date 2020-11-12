@@ -115,7 +115,7 @@ AdaBoostClassifier, CatBoostClassifier, XGBoostClassifier, <br/>
 Support Vector Classifier, LogisticRegression, RandomForestClassifier, <br/>
 KNeighborsClassifier，EnsembleVoteClassifier, StackingClassifier<br/>
 
-```{r test-python, engine='python'}
+```{python}
 eclf = EnsembleVoteClassifier(clfs=[cat,logreg, knn, svc,ada,rdf,xgb], weights=[1,1,1,1,1,1,1])
 labels = ['CatBoost','Logistic Regression', 'KNN', 'SVC','AdaBoost',"Random Forest",'XGBoost','Ensemble']
 cv=KFold(n_splits = 5, random_state=2022,shuffle=True)
@@ -139,7 +139,7 @@ _Figure 7: Model Performance Table_
 
 Figure 8 is the ROC plots for all the models that I mentioned above:<br/>
 
-```{r test-python, engine='python'}
+```{python}
 plt.figure()
 lw = 1
 #knn

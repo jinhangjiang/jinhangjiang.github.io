@@ -139,7 +139,9 @@ _Figure 7: Model Performance Table_
 <br/>
 
 Figure 8 is the ROC plots for all the models that I mentioned above:<br/>
+
 ```{r test-python, engine='python'}
+
 plt.figure()
 lw = 1
 #knn
@@ -161,6 +163,7 @@ plt.ylabel('True Positive Rate')
 plt.title('ROC curve')
 plt.legend(loc="lower right")
 plt.show()
+
 ```
 <br/>
 

@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Project Report | League of Legends Match Prediction Using Laning Phase Data
+tags:
+- Blog
+- Machine Learning
+- Data Analysis
 ---
 
 #### _Author: Jinhang Jiang_
@@ -115,18 +119,18 @@ AdaBoostClassifier, CatBoostClassifier, XGBoostClassifier, <br/>
 Support Vector Classifier, LogisticRegression, RandomForestClassifier, <br/>
 KNeighborsClassifier，EnsembleVoteClassifier, StackingClassifier<br/>
 
-```{python}
-eclf = EnsembleVoteClassifier(clfs=[cat,logreg, knn, svc,ada,rdf,xgb], weights=[1,1,1,1,1,1,1])
-labels = ['CatBoost','Logistic Regression', 'KNN', 'SVC','AdaBoost',"Random Forest",'XGBoost','Ensemble']
-cv=KFold(n_splits = 5, random_state=2022,shuffle=True)
-for clf, label in zip([cat,logreg, knn, svc, ada, rdf, xgb,eclf], labels):
-    scores = cross_val_score(clf, info_x, info_y, 
-                             cv=cv, 
-                             scoring='accuracy',
-                             n_jobs=-1)
-    print("[%s] Accuracy: %0.6f (+/- %0.6f) Best: %0.6f " 
-          % (label,scores.mean(), scores.std(), scores.max()))
-```
+	{% raw %}
+		eclf = EnsembleVoteClassifier(clfs=[cat,logreg, knn, svc,ada,rdf,xgb], weights=[1,1,1,1,1,1,1])
+        labels = ['CatBoost','Logistic Regression', 'KNN', 'SVC','AdaBoost',"Random Forest",'XGBoost','Ensemble']
+        cv=KFold(n_splits = 5, random_state=2022,shuffle=True)
+        for clf, label in zip([cat,logreg, knn, svc, ada, rdf, xgb,eclf], labels):
+         scores = cross_val_score(clf, info_x, info_y, 
+                                    cv=cv, 
+                                    scoring='accuracy',
+                                    n_jobs=-1)
+            print("[%s] Accuracy: %0.6f (+/- %0.6f) Best: %0.6f " 
+                % (label,scores.mean(), scores.std(), scores.max()))
+	{% endraw %}
 <br/>
 Figure 7 shows the outputs of the nine models. After hyperparameters tuning, the stacking model had an average accuracy of 0.732158, the third-best score. Still, it also had the lowest standard deviation, indicating that it did the best job of preventing overfitting in the cross-validation test. The ensemble model and stacking model also had the best and second-best ROC score. This outcome was consistent with what I discussed in the previous post: [Simple Weighted Average Ensemble | Machine Learning](https://medium.com/analytics-vidhya/simple-weighted-average-ensemble-machine-learning-777824852426).<br/>
 <br/>
@@ -139,29 +143,29 @@ _Figure 7: Model Performance Table_
 
 Figure 8 is the ROC plots for all the models that I mentioned above:<br/>
 
-```{python}
-plt.figure()
-lw = 1
-#knn
-knn.fit(X_train,y_train)
-knn_pred = knn.predict_proba(X_test)
-fpr, tpr, threshold = roc_curve(y_test,knn_pred[:,1])
-roc_auc = auc(fpr, tpr)
-plt.plot(fpr, tpr, color='tab:blue',
+	{% raw %}
+		plt.figure()
+        lw = 1
+        #knn
+        knn.fit(X_train,y_train)
+        knn_pred = knn.predict_proba(X_test)
+        fpr, tpr, threshold = roc_curve(y_test,knn_pred[:,1])
+        roc_auc = auc(fpr, tpr)
+        plt.plot(fpr, tpr, color='tab:blue',
              lw=lw, label='KNN ROC curve (area = %0.4f)' % roc_auc)
-... ...
-... ...
-... ...
+        ... ...
+        ... ...
+        ... ...
 
-plt.plot([0, 1], [0, 1], color='navy', lw=lw, linestyle='--')
-plt.xlim([-0.02, 1.0])
-plt.ylim([0.0, 1.05])
-plt.xlabel('False Positive Rate')
-plt.ylabel('True Positive Rate')
-plt.title('ROC curve')
-plt.legend(loc="lower right")
-plt.show()
-```
+        plt.plot([0, 1], [0, 1], color='navy', lw=lw, linestyle='--')
+        plt.xlim([-0.02, 1.0])
+        plt.ylim([0.0, 1.05])
+        plt.xlabel('False Positive Rate')
+        plt.ylabel('True Positive Rate')
+        plt.title('ROC curve')
+        plt.legend(loc="lower right")
+        plt.show()
+	{% endraw %}
 <br/>
 
 {:refdef: style="text-align: center;"}

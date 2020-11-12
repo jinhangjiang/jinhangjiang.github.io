@@ -120,11 +120,11 @@ Support Vector Classifier, LogisticRegression, RandomForestClassifier, <br/>
 KNeighborsClassifier，EnsembleVoteClassifier, StackingClassifier<br/>
 
 	{% raw %}
-		eclf = EnsembleVoteClassifier(clfs=[cat,logreg, knn, svc,ada,rdf,xgb], weights=[1,1,1,1,1,1,1])
+	eclf = EnsembleVoteClassifier(clfs=[cat,logreg, knn, svc,ada,rdf,xgb], weights=[1,1,1,1,1,1,1])
         labels = ['CatBoost','Logistic Regression', 'KNN', 'SVC','AdaBoost',"Random Forest",'XGBoost','Ensemble']
         cv=KFold(n_splits = 5, random_state=2022,shuffle=True)
         for clf, label in zip([cat,logreg, knn, svc, ada, rdf, xgb,eclf], labels):
-         scores = cross_val_score(clf, info_x, info_y, 
+            scores = cross_val_score(clf, info_x, info_y, 
                                     cv=cv, 
                                     scoring='accuracy',
                                     n_jobs=-1)
@@ -144,7 +144,7 @@ _Figure 7: Model Performance Table_
 Figure 8 is the ROC plots for all the models that I mentioned above:<br/>
 
 	{% raw %}
-		plt.figure()
+	plt.figure()
         lw = 1
         #knn
         knn.fit(X_train,y_train)

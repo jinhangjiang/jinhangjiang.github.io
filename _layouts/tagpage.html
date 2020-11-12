@@ -12,3 +12,7 @@ layout: default
 </ul>
 </div>
 <hr>
+
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}

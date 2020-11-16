@@ -19,7 +19,7 @@ The champion combos of each team will significantly impact the results of the ga
 
 Also, as we can see, in a lot of high-level games, team combos, especially the combos for the late game, did not always work out as expected since the laning phase tends to have more uncertainties than the mid and late game phases, such as one of the teams was able to create a gap that was too big for the other team to fill up in the late game. My goal is to understand how the laning phase performance (the first 10 mins) affects the final result.<br/>
 
-I used the Jupyter Notebook and R studio as the code editors. I did some data exploration with Pandas, NumPy, and Matlibplot packages. Then, I implemented nine models, including an ensemble model, a stacking model, and seven other classifiers. The most consistent model was the stacking model, whose average accuracy score on cross-validation was 0.732158, with a standard deviation of +/- 0.005171.<br/>
+I used the Jupyter Notebook and R studio as the code editors. I did some data exploration with Pandas, NumPy, and Matplotlib packages. Then, I implemented nine models, including an ensemble model, a stacking model, and seven other classifiers. The most consistent model was the stacking model, whose average accuracy score on cross-validation was 0.732158, with a standard deviation of +/- 0.005171.<br/>
 <br/>
 
 {:refdef: style="text-align: center;"}

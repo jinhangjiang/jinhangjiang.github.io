@@ -15,6 +15,8 @@ Certificate of Appreciation by Consul General of Consulate General of P. R. Chin
 
 ### Certifications
 #### *Coursera*
+[Applied Data Science with Python Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/LYS53FKVV2CG) | *University of Michigan* | *March 15, 2021*<br />
+[Applied Social Network Analysis in Python](https://www.coursera.org/account/accomplishments/certificate/5X3FTES27L8W) | *University of Michigan* | *March 15, 2021*<br />
 [Applied Text Mining in Python](https://www.coursera.org/account/accomplishments/certificate/JDZ2AVPRCBHH) | *University of Michigan* | *December 16, 2020*<br />
 [Applied Machine Learning in Python](https://www.coursera.org/account/accomplishments/certificate/QND2LKZC9Q9M) | *University of Michigan* | *Jun 3, 2020*<br />
 [Applied Plotting, Charting & Data Representation in Python](https://www.coursera.org/account/accomplishments/certificate/J9FWMZMDPSRP) | *University of Michigan* | *May 27, 2020* <br />

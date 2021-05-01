@@ -18,7 +18,7 @@ After graduating from high school, I went to The University of Kansas for my bac
 I spent two years studying Accounting and switched my major to Business Analytics in the senior year. 
 In November of 2019, I joined a team of three and won second place in the H&R Block machine learning competition at KU. 
 In spring 2020, I was hired as a teaching assistant of the certificate program in analytics, which was designed for the executives of Sprint Corporation. 
-At the same time, I also worked as an undergraduate research assistant, 
+At the same time, I also worked as an undergraduate research assistant for [Dr. Karthik Srinivasan](https://www.business.ku.edu/people/karthik-srinivasan), 
 tasked with a text mining project in accounting and a neural network project to predict the disease for the high-cost patient at the point of admission.<br/>
 
 During my time at KU, I also served as the promotion chair and president of the KU Chinese Students and Scholars Friendship Association, 

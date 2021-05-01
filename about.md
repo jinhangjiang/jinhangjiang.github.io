@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Graduate student at the W.P.Carey School of Business focusing on Business Analytics with a B.S. in Business Analytics from The University of Kansas.
-Experienced in in text mining, manipulating large datasets, linear regression forecasting, classification forecasting, classification analysis, and deep learning.
+Graduated from the W.P.Carey School of Business focusing on Business Analytics with a B.S. in Business Analytics from The University of Kansas.<br/>
+Experienced in in text mining, manipulating large datasets, regression analyses, classification analyses, computer vision and deep learning.<br/>
+Research Interests: Sports, E-sports, Healthcare, Marketing Strategy, Business Operations, and Search Engine Optimization, etc.<br/>
 
 ### More Information
 
@@ -26,14 +27,17 @@ I worked as a business development intern for China Telecom Americas from my jun
 
 From April of 2019 to May of 2020, I worked at [Happy Learning](https://happylearning.org/) as a basketball coach. The players were aged from kindergarten to middle school.<br/>
 
-I am currently pursuing my master's degree at Arizona State University, majoring in Business Analytics. 
-In October of 2020, I led a team of three in the Humana-Mays Healthcare Case Competition, and the final submission was ranked top 50 in the national round.<br/>
+In October of 2020, I led a team of three in the Humana-Mays Healthcare Case Competition, and the final submission was ranked top 50 in the national round. In the same month, I started to work at the Actionable Analytics Lab at W.P. Carey Business School under the supervision of [Dr. Victor Benjamin](https://wpcarey.asu.edu/people/profile/979699).<br/>
+
+In the following month, I was assigned to an applied capstone project for Adidas to help implement a full social media analytics pipeline. It was a six month project. During the project, I was responsible to build a decision support system by conducting natural language processing with word2vec and SBERT, social network analysis with node2vec, etc. On April 28th, we presented the data science team from Adidas to highlight actionable insights and the functionality of the system we developed.<br/>
+
+On May 3rd of 2021, I graduated from Arizona State University with an M.S. degree in Business Analytics (Stem qualified). Currently work as a freelancer and data analytics researcher.<br/>
 
 Love basketball, swimming, volleyball, lifting, and computer gamming.<br/>
 <br/>
 <br/>
 <br/>
-<iframe width="980" height="410" src="https://mars.nasa.gov/layout/embed/send-your-name/future/certificate/?cn=614621981934" frameborder="0"></iframe>
+<iframe width="490" height="205" src="https://mars.nasa.gov/layout/embed/send-your-name/future/certificate/?cn=614621981934" frameborder="0"></iframe>
 <br/>
 ### Contact me
 

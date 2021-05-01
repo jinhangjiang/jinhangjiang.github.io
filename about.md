@@ -5,7 +5,9 @@ permalink: /about/
 ---
 
 Graduated from the W.P.Carey School of Business focusing on Business Analytics with a B.S. in Business Analytics from The University of Kansas.<br/>
+<br/>
 Experienced in in text mining, manipulating large datasets, regression analyses, classification analyses, computer vision and deep learning.<br/>
+<br/>
 Research Interests: Sports, E-sports, Healthcare, Marketing Strategy, Business Operations, and Search Engine Optimization, etc.<br/>
 
 ### More Information

@@ -115,7 +115,7 @@ And the attendees seemed to prefer the ML engineers and domain experts for this 
 And I strongly agree on the necessity of bringing in the domain experts for particular projects. It would be nice if one can handle all, but it is not realistic. 
 The domain experts may lack ML knowledge, but they would be the people who know the data best.<br/>
 
-Here is the (video)[https://www.youtube.com/watch?v=06-AZXmwHjo&t=10s] from DeepLearning.AI on youtube, which will take you one hour to watch.
+Here is the [video](https://www.youtube.com/watch?v=06-AZXmwHjo&t=10s) from DeepLearning.AI on youtube, which will take you one hour to watch.
 
 ----
 ****

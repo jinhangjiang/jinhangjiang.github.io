@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project Report | Regression Analysis on House Price
+title: Blog | What is MLOps and Why We Should Care
 tags: Blog Data-Science Machine-Learning Review
 ---
 

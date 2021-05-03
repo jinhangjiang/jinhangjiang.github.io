@@ -4,7 +4,7 @@ title: Blog | What is MLOps and Why We Should Care
 tags: Blog Data-Science Machine-Learning Review
 ---
 
-#### _Author: Jinhang Jiang
+#### _Author: Jinhang Jiang_
 #### _Student Researcher at ASU Actionable Analytics Lab_
 
 <br/>

@@ -97,7 +97,8 @@ First, from model-centric to data-centric:<br/>
   * _Data-centric view:_
     * The consistency of the data is paramount. Use tools to improve the data quality; this will allow multiple models to do well
     * Hold the code fixed and iteratively improve the data
-<br/>
+
+
 Second, current neural network models could be biased. It is easy to achieve a perfect training score on small datasets, but the variance will increase, which means overfitting occurred. 
 And that is why we need clean data over noisy data.<br/>
 

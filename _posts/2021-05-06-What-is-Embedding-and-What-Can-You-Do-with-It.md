@@ -164,3 +164,6 @@ And if you are interested, I think [this website](https://github.com/chihming/aw
 In the context of machine learning, embedding functions as a task-specific dictionary. 
 It encodes our targets with a series of numbers that serves as a unique ID. We like to use embedding because it can help transform the discrete, categorical variables into model-readable data, and it can also help reduce the data’s dimensionality and complexity. 
 I also listed several selected 2vec-style models.<br/>
+
+----
+****

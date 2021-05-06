@@ -6,7 +6,6 @@ tags: Blog Data-Science Machine-Learning
 
 #### _Author: Jinhang Jiang_
 #### _Student Researcher at ASU Actionable Analytics Lab_
-<br/>
 
 {:refdef: style="text-align: center;"}
 ![an image alt text]({{ site.baseurl }}/images/Embedding/1.png "an image title")<br/>
@@ -23,9 +22,9 @@ Having a solid understanding of embedding will make learning many more advanced 
 
 Therefore, in today’s blog, I’ll guide you through the following topics to help you gain a thorough understanding of the definition and applications of embeddings:<br/>
 
-   1.**Embedding: A Task-Specific Dictionary**
-   2.**Why We Want Embeddings**
-   3.**The Various Applications of Embeddings**
+   1.**Embedding: A Task-Specific Dictionary**<br/>
+   2.**Why We Want Embeddings**<br/>
+   3.**The Various Applications of Embeddings**<br/>
    4.**Summary**
 <br/>
 ## Embedding: A Task-Specific Dictionary
@@ -136,26 +135,26 @@ We can use the “dictionary” to make a human-readable visualization.<br/>
 You must have been excited to see some applications of embedding in practice after discovering what it is and why we want it. 
 So, I selected a list of interesting applications using the idea of embedding along with some related literature or usage demonstration.<br/>
 #### Natural Language Processing:
-word2vec:
-    * Paper: https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf
-    * Explanation: https://jalammar.github.io/illustrated-word2vec/
+word2vec:<br/>
+    * Paper: https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf <br/>
+    * Explanation: https://jalammar.github.io/illustrated-word2vec/ <br/>
 
-sent2vec:
-    * Paper: https://arxiv.org/abs/1703.02507
-    * Explanation: https://bit.ly/3uxFJ7S
+sent2vec:<br/>
+    * Paper: https://arxiv.org/abs/1703.02507 <br/>
+    * Explanation: https://bit.ly/3uxFJ7S <br/>
 
-doc2vec:
-    * Paper: https://cs.stanford.edu/~quocle/paragraph_vector.pdf
-    * Demonstration: https://towardsdatascience.com/detecting-document-similarity-with-doc2vec-f8289a9a7db7
+doc2vec:<br/>
+    * Paper: https://cs.stanford.edu/~quocle/paragraph_vector.pdf <br/>
+    * Demonstration: https://towardsdatascience.com/detecting-document-similarity-with-doc2vec-f8289a9a7db7 <br/>
 
 #### Image Analysis:
-Img2vec:
-    * Explanation and demonstration: https://becominghuman.ai/extract-a-feature-vector-for-any-image-with-pytorch-9717561d1d4c
+Img2vec:<br/>
+    * Explanation and demonstration: https://becominghuman.ai/extract-a-feature-vector-for-any-image-with-pytorch-9717561d1d4c <br/>
 
 #### Social Network Analysis:
-node2vec:
-    * Paper: https://arxiv.org/abs/1607.00653
-    * Case study & code: https://medium.com/analytics-vidhya/analyzing-disease-co-occurrence-using-networkx-gephi-and-node2vec-53941da35a0f
+node2vec:<br/>
+    * Paper: https://arxiv.org/abs/1607.00653 v
+    * Case study & code: https://medium.com/analytics-vidhya/analyzing-disease-co-occurrence-using-networkx-gephi-and-node2vec-53941da35a0f <br/>
 
 _The algorithms above are only small portions of 2vec-style models. 
 And if you are interested, I think [this website](https://github.com/chihming/awesome-network-embedding) may help you._

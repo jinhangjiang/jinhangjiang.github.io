@@ -136,25 +136,25 @@ You must have been excited to see some applications of embedding in practice aft
 So, I selected a list of interesting applications using the idea of embedding along with some related literature or usage demonstration.<br/>
 #### Natural Language Processing:
 word2vec:<br/>
-    * Paper: https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf <br/>
-    * Explanation: https://jalammar.github.io/illustrated-word2vec/ <br/>
+* Paper: [https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf] <br/>
+* Explanation: [https://jalammar.github.io/illustrated-word2vec/] <br/>
 
 sent2vec:<br/>
-    * Paper: https://arxiv.org/abs/1703.02507 <br/>
-    * Explanation: https://bit.ly/3uxFJ7S <br/>
+* Paper: [https://arxiv.org/abs/1703.02507] <br/>
+* Explanation: [https://bit.ly/3uxFJ7S] <br/>
 
 doc2vec:<br/>
-    * Paper: https://cs.stanford.edu/~quocle/paragraph_vector.pdf <br/>
-    * Demonstration: https://towardsdatascience.com/detecting-document-similarity-with-doc2vec-f8289a9a7db7 <br/>
+* Paper: [https://cs.stanford.edu/~quocle/paragraph_vector.pdf] <br/>
+* Demonstration: [https://towardsdatascience.com/detecting-document-similarity-with-doc2vec-f8289a9a7db7] <br/>
 
 #### Image Analysis:
 Img2vec:<br/>
-    * Explanation and demonstration: https://becominghuman.ai/extract-a-feature-vector-for-any-image-with-pytorch-9717561d1d4c <br/>
+* Explanation and demonstration: [https://becominghuman.ai/extract-a-feature-vector-for-any-image-with-pytorch-9717561d1d4c] <br/>
 
 #### Social Network Analysis:
 node2vec:<br/>
-    * Paper: https://arxiv.org/abs/1607.00653 v
-    * Case study & code: https://medium.com/analytics-vidhya/analyzing-disease-co-occurrence-using-networkx-gephi-and-node2vec-53941da35a0f <br/>
+* Paper: [https://arxiv.org/abs/1607.00653] <br/>
+* Case study & code: [https://medium.com/analytics-vidhya/analyzing-disease-co-occurrence-using-networkx-gephi-and-node2vec-53941da35a0f] <br/>
 
 _The algorithms above are only small portions of 2vec-style models. 
 And if you are interested, I think [this website](https://github.com/chihming/awesome-network-embedding) may help you._

@@ -22,7 +22,7 @@ Second Place of the H&R Block Machine Learning Competition at The University of 
 [Applied Social Network Analysis in Python](https://www.coursera.org/account/accomplishments/certificate/5X3FTES27L8W) | *University of Michigan* | *March 15, 2021*<br />
 [Applied Text Mining in Python](https://www.coursera.org/account/accomplishments/certificate/JDZ2AVPRCBHH) | *University of Michigan* | *December 16, 2020*<br />
 [Applied Machine Learning in Python](https://www.coursera.org/account/accomplishments/certificate/QND2LKZC9Q9M) | *University of Michigan* | *Jun 3, 2020*<br />
-[Applied Plotting, Charting & Data Representation in Python](https://www.coursera.org/account/accomplishments/certificate/J9FWMZMDPSRP) | *University of Michigan* | *May 27, 2020* <br />
+[Applied Data Representation in Python](https://www.coursera.org/account/accomplishments/certificate/J9FWMZMDPSRP) | *University of Michigan* | *May 27, 2020* <br />
 [Introduction to Data Science in Python](https://www.coursera.org/account/accomplishments/certificate/CMHDALHFR5JS) | *University of Michigan* | *Mar 23, 2020* <br />
 <br />
 <br />

@@ -14,10 +14,10 @@ Second Place of the H&R Block Machine Learning Competition at The University of 
 <br/>
 
 ### Certifications
-#### *Coursera*
-##### *Specializations*
+#### *Coursera:*
+###### *_Specializations_*
 [Applied Data Science with Python Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/LYS53FKVV2CG) | *University of Michigan* | *March 15, 2021*<br />
-##### *Courses*
+###### *_Courses_*
 [Introduction to Google SEO](https://www.coursera.org/account/accomplishments/certificate/X8FWW4TRFGMY) | *University of California, Davis* | *May 8, 2021*<br />
 [Applied Social Network Analysis in Python](https://www.coursera.org/account/accomplishments/certificate/5X3FTES27L8W) | *University of Michigan* | *March 15, 2021*<br />
 [Applied Text Mining in Python](https://www.coursera.org/account/accomplishments/certificate/JDZ2AVPRCBHH) | *University of Michigan* | *December 16, 2020*<br />

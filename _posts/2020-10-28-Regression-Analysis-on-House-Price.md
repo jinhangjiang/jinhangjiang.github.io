@@ -127,7 +127,7 @@ Our final training dataset has 1460 observations and 289 variables; and the hold
 
 ## Modeling
 ###   _-	Individual Models Performance (base vs. tuned model)_
-Nine regression models were selected in this case: 
+Nine regression models were selected in this case: <br/>
 _**OLS, XGBRegressor, SGDRegressor**_<br/>
 _**DecisionTreeRegressor, RandomForestRegressor, SVR**_<br/>
 _**CatBoostRegressor, LightGBM, MLPRegressor**._<br/>

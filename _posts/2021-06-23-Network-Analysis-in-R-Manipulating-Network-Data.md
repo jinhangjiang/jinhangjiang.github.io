@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tutorial | Network Analysis in R: Manipulating Network Data
-tags: Network-Analysis Tutorial R
+title: Blog | What is Embedding and What Can You Do with It
+tags: Blog Data-Science Machine-Learning 
 ---
 
 

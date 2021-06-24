@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Project Report | League of Legends Match Prediction Using Laning Phase Data
-tags: Blog Machine-Learning Data-Analysis
+tags: Project-Report Machine-Learning Data-Analysis Game-Analytics
 ---
 
 #### _Author: Jinhang Jiang_

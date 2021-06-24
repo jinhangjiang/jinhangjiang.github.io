@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Project Report | Regression Analysis on House Price
-tags: Blog Linear-Regression Machine-Learning
+tags: Project-Report Linear-Regression Machine-Learning
 ---
 
 #### _Author: Jinhang Jiang, Maren Olson_

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Tutorial | Network Analysis in R: Manipulating Network Data
-tags: Network-Analysis Tutorial R
-	
+tags: Network-Analysis Tutorial R	
 ---
+
 
 #### _Author: Jinhang Jiang_
 #### _Student Researcher at University of Kansas, Business Analytics_

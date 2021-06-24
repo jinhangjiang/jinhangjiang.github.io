@@ -19,7 +19,7 @@ In my previous works, I have done quite a lot of network analysis in the python 
 However, recently I came across the book - “[_Statistical Analysis of Network Data with R_](https://link.springer.com/book/10.1007/978-1-4939-0983-4)” 
 (this is the 1st version, and the 2nd version was published in 2020)- 
 written by Eric D. Kolaczyk and Gábor Csárdi, which showed me many cool packages (e.g., igraph) in R 
-which provides high-quality network analysis in terms of manipulating graphs, mathematical modeling, statistical modeling, etc.<br/>
+which provides high-quality network analysis in terms of manipulating graphs, descriptive analysis, mathematical modeling, statistical modeling, etc.<br/>
 
 The book came with a list of code demos, which can be found here: https://github.com/kolaczyk/sand.<br/>
 

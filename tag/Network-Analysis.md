@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Network Analysis"
+title: "Tag: Network-Analysis"
 tag:  Network-Analysis
 ---
 

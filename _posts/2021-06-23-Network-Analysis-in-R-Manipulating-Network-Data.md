@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tutorial | Network Analysis with R - Manipulating Network Data
-tags: Tutorial Network-Analysis R
+tags: Tutorial Network-Analysis R Visualization
 ---
 
 

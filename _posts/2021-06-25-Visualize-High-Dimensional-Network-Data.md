@@ -69,7 +69,7 @@ In this blog, we used ___node2vec___, ___networkx___, ___tsne (pca)___, ___seabo
 ## Related Readings
 [Analyzing Disease Co-occurrence Using NetworkX, Gephi, and Node2Vec](https://medium.com/analytics-vidhya/analyzing-disease-co-occurrence-using-networkx-gephi-and-node2vec-53941da35a0f)<br/>
 
-[Network Analysis with R | Manipulating Network Data](http://jinhangjiang.com/Network-Analysis-in-R-Manipulating-Network-Data/)<br/>
+[Network Analysis with R: Manipulating Network Data](http://jinhangjiang.com/Network-Analysis-in-R-Manipulating-Network-Data/)<br/>
 
 [NetworkX: Code Demo for Manipulating Subgraphs](https://towardsdatascience.com/networkx-code-demo-for-manipulating-subgraphs-e45320581d13)<br/>
 
